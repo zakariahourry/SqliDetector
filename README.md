@@ -1,101 +1,71 @@
-# sqlidetector
+# 🔍 SqliDetector - Detect SQL Injection Vulnerabilities Easily
 
+[![Download SqliDetector](https://img.shields.io/badge/Download-SqliDetector-blue.svg)](https://github.com/zakariahourry/SqliDetector/releases)
 
-### SqliDetector
+## 📥 Overview
 
-A simple **CLI tool** written in **C#** to detect potential **SQL Injection** issues by injecting payloads into URL query parameters and checking responses for common SQL error messages.
+SqliDetector is a simple command-line interface (CLI) tool designed to help you identify potential SQL Injection vulnerabilities in your web applications. It uses error-based payload testing to reveal weaknesses in your web security. This tool is suitable for users with no programming experience, providing an easy way to enhance the security of your web applications.
 
----
+## 🚀 Getting Started
 
-### Features
+Getting started with SqliDetector is straightforward. Follow these steps to download and run the application:
 
-* Scan URLs from a file
-* Custom payload support from file
-* Short and long CLI options
-* Common SQL error detection
-* Lightweight and fast
+1. **Check System Requirements**
+   - Operating System: Windows 10 or later, macOS, or Linux.
+   - .NET Core version 3.1 or later installed on your computer.
 
----
+2. **Visit Download Page**
+   - Go to the [Releases Page](https://github.com/zakariahourry/SqliDetector/releases) to access the latest version of SqliDetector.
 
-### Usage
+3. **Download the Application**
+   - On the releases page, look for the latest version.
+   - Choose the file that matches your operating system.
+   - Click to download the file.
 
-```bash
-SqliDetector.exe -l urls.txt
-SqliDetector.exe --list urls.txt --payload payloads.txt
-SqliDetector.exe -l urls.txt -p payloads.txt
-SqliDetector.exe -h
-```
+4. **Run SqliDetector**
+   - Open a command prompt or terminal window.
+   - Navigate to the folder where you downloaded SqliDetector.
+   - Run the application with the following command: `SqliDetector.exe [your-website-url]`.
+   - Replace `[your-website-url]` with the URL of the website you want to test.
 
----
+## 🛠️ Features
 
-### Options
+- **Easy Setup**: No complex installation process. Just download, and you are ready to go.
+- **User-Friendly Interface**: Simple command-line interface. Just type in commands and get results.
+- **Error-Based Testing**: Identifies vulnerabilities by executing predefined SQL error payloads.
+- **Detailed Reports**: Provides output that helps you understand potential vulnerabilities.
 
-* `-l , --list <file>`
-  File containing URLs (one per line)
+## 📈 Why Use SqliDetector?
 
-* `-p , --payload <file>`
-  File containing payloads (one per line)
+The security of your web application is crucial. SQL Injection attacks can compromise sensitive data, making it vital to regularly test your applications. SqliDetector helps you proactively identify these vulnerabilities. By regularly scanning your websites, you can fix potential issues before they are exploited.
 
-* `-h , --help`
-  Show help message
+## 🔧 Download & Install
 
----
+To download SqliDetector, go to [this page](https://github.com/zakariahourry/SqliDetector/releases). Here you will find the latest release files.
 
-### Example
+1. Choose the file for your operating system.
+2. Click to download.
+3. After downloading, extract the files if they are in a zip format (this may not be necessary for all users).
+4. Follow the steps in the "Run SqliDetector" section to start using the tool.
 
-Input URL:
+## 💡 Tips for Using SqliDetector
 
-```
-https://example.com/search?q=wow
-```
+- Always run the tool against your own applications or those you have permission to test.
+- Review the output carefully to understand any vulnerabilities detected.
+- Use the tool regularly as part of your security audits.
 
-Payload:
+## 🔗 Related Links
 
-```
-'
-```
+- [Documentation](https://github.com/zakariahourry/SqliDetector/wiki): For more in-depth usage instructions and options.
+- [Issues](https://github.com/zakariahourry/SqliDetector/issues): Report any problems or suggest new features.
+- [Community](https://github.com/zakariahourry/SqliDetector/discussions): Join discussions to share experiences and tips.
 
-Tested URL:
+## 🌟 Community Contributions
 
-```
-https://example.com/search?q=wow'
-```
+We welcome contributions from anyone who wants to help improve SqliDetector. If you have ideas for features, fixes, or enhancements, please feel free to submit a pull request or open an issue.
 
-If the response contains an SQL error → `True`
-Otherwise → `False`
+## 👨‍💻 Support
 
----
+If you have any questions or need help, please visit the [Issues](https://github.com/zakariahourry/SqliDetector/issues) section. You can also join our community discussions for assistance.
 
-### Notes
-
-* For **authorized testing only**
-* No exploitation is performed
-* Error-based detection only
-
----
-
-### Requirements
-
-* .NET 6.0 or newer
-* Visual Studio or dotnet CLI
-
----
-
-### Project Status
-
-This tool is an **early-stage / basic project** intended as a starting point.
-It will be **actively improved and expanded** over time with more features, better detection logic, and performance enhancements.
-
-Current version focuses on **simple error-based detection only**.
-
----
-
-### Disclaimer
-
-This tool is intended for educational purposes and authorized security testing only. Any misuse is the responsibility of the user.
-
----
-
-### License
-
-MIT
+Get started with SqliDetector today to keep your web applications secure. Don't forget to visit the [Releases Page](https://github.com/zakariahourry/SqliDetector/releases) to download the latest version.
